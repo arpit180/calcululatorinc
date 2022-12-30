@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+#include<conio.h>
+
+void main()
+{
+int a,b,i;
+printf("enter any two numbers";
+scanf("%d %d",&a,&b);
+printf("enter 1 to add");
+printf("enter 2 to subtract");
+printf("enter 3 to multiply");
+
+switch(i)
+{
+case 1:
+printf("%d",a+b);
+break;
+
+case 2:
+printf("%d",a-b);
+break;
+
+case 3:
+printf("%d",a*b);
+break;
+
+default
+printf("invalid input");
+break;
+}
+getch();
+}
